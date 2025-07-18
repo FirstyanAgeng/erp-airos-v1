@@ -293,14 +293,14 @@ const Suppliers = () => {
   ];
 
   return (
-    <Box>
+    <Box sx={{ p: 3, pt: 2 }}>
       <Box sx={{ mb: 4, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <Box>
           <Typography variant="h3" gutterBottom sx={{ fontWeight: 700, color: '#1a237e' }}>
             Supplier Management
           </Typography>
           <Typography variant="body1" color="textSecondary">
-            Manage vendor relationships, contacts, and procurement processes
+            Manage supplier relationships, contracts, and performance
           </Typography>
         </Box>
         <Button

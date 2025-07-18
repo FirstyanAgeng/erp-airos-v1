@@ -62,7 +62,7 @@ const Profile = () => {
   };
 
   return (
-    <Box>
+    <Box sx={{ p: 3, pt: 2 }}>
       <Box sx={{ mb: 4 }}>
         <Typography variant="h3" gutterBottom sx={{ fontWeight: 700, color: '#1a237e' }}>
           Profile

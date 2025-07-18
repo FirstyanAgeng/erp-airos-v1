@@ -233,14 +233,14 @@ const Products = () => {
   ];
 
   return (
-    <Box>
+    <Box sx={{ p: 3, pt: 2 }}>
       <Box sx={{ mb: 4, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <Box>
           <Typography variant="h3" gutterBottom sx={{ fontWeight: 700, color: '#1a237e' }}>
             Product Management
           </Typography>
           <Typography variant="body1" color="textSecondary">
-            Manage product catalog, inventory, and supplier relationships
+            Manage inventory, pricing, and product information
           </Typography>
         </Box>
         <Button

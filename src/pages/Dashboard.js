@@ -253,7 +253,7 @@ const Dashboard = () => {
   }
 
   return (
-    <Box sx={{ p: 3 }}>
+    <Box sx={{ p: 3, pt: 2 }}>
       {/* Header */}
       <Box sx={{ mb: 4, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <Box>
